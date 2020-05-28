@@ -1,0 +1,11 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+}
+.logo{
+    margin: auto;
+    width: 110px;
+    height: 110px;
+}

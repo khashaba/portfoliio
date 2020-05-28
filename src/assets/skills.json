@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Angular",
+        "img": "assets/icons/skills/angular.png"
+    },
+    {
+        "name": "TypeScript",
+        "img": "assets/icons/skills/typescript.png"
+    },
+    {
+        "name": "JavaScript",
+        "img": "assets/icons/skills/javascript.png"
+    },
+    {
+        "name": "NodeJs",
+        "img": "assets/icons/skills/node.png"
+    },
+    {
+        "name": "HTML",
+        "img": "assets/icons/skills/html.png"
+    },
+    {
+        "name": "CSS",
+        "img": "assets/icons/skills/css.png"
+    },
+    {
+        "name": "Bootstrap",
+        "img": "assets/icons/skills/bootstrap.png"
+    },
+    {
+        "name": "Sass",
+        "img": "assets/icons/skills/sass.png"
+    },
+    {
+        "name": "Java",
+        "img": "assets/icons/skills/java.png"
+    },
+    {
+        "name": "Kotlin",
+        "img": "assets/icons/skills/kotlin.png"
+    },
+    {
+        "name": "Docker",
+        "img": "assets/icons/skills/docker.png"
+    },
+    {
+        "name": "Git",
+        "img": "assets/icons/skills/git.png"
+    }
+]
