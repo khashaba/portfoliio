@@ -15,6 +15,10 @@
         "name": "NodeJs",
         "img": "assets/icons/skills/node.png"
     },
+                {
+                    "name": "Docker",
+                    "img": "assets/icons/skills/docker.png"
+                },
     {
         "name": "HTML",
         "img": "assets/icons/skills/html.png"
@@ -32,6 +36,18 @@
         "img": "assets/icons/skills/sass.png"
     },
     {
+        "name": "Photoshop",
+        "img": "assets/icons/skills/photoshop.png"
+    },
+    {
+        "name": "Git",
+        "img": "assets/icons/skills/git.png"
+    },
+    {
+        "name": "Sql",
+        "img": "assets/icons/skills/sql.png"
+    },
+    {
         "name": "Java",
         "img": "assets/icons/skills/java.png"
     },
@@ -40,11 +56,7 @@
         "img": "assets/icons/skills/kotlin.png"
     },
     {
-        "name": "Docker",
-        "img": "assets/icons/skills/docker.png"
-    },
-    {
-        "name": "Git",
-        "img": "assets/icons/skills/git.png"
+        "name": "Selenium",
+        "img": "assets/icons/skills/selenium.png"
     }
 ]
