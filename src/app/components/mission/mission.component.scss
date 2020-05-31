@@ -1,0 +1,68 @@
+.mission{
+    height: 80vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    align-items:flex-end;
+
+    
+}
+.content{
+max-width: 56%;
+bottom: 2%;
+margin: 0 auto;
+flex:1;
+display: flex;
+align-items:center;
+flex-direction: column;
+padding-bottom: 40px;
+
+
+
+}
+.mission-image{
+    float: right;
+    height: 100%;
+    width: 30%;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+    font-size: 27px;
+    margin-bottom: 40px;
+
+}
+.companies{
+    max-height: 57px;; 
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    overflow: auto;
+}
+.company{
+    margin: 0 auto;
+}
+
+.companies > :first-child { margin-left: 0 !important; }
+.companies > :last-child {margin-right: 0 !important; }
+
+@media (max-width: 600px) {
+    .mission-image{
+        display: none;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    .companies{
+        width: 90vw;
+    }
+    .company{
+        height: 30px;
+        margin-right: 10px;
+
+    }
+
+}

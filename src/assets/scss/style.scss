@@ -1,0 +1,23 @@
+// Design System SASS files for Ahmed portfolio
+/*
+    Common style File to import partial files
+*/
+
+/*
+Import Base Files to re-use in components
+*/
+
+@import "./base/variables";
+@import "./base/mixins";
+
+/*
+
+Reset CSS and Bootstrap or Vendor SASS
+
+*/
+
+@import "./base/reset";
+@import "./base/common";
+/*
+    Custom Styles for Components as per Design System
+*/

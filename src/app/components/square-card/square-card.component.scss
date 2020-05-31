@@ -1,0 +1,24 @@
+.square{
+    background-color: #fff;
+    display: flex;
+}
+.logo{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+}
+
+
+@media (max-width: 600px) {
+    .logo{
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+    }
+    .square{
+        margin: 5px;
+    }
+}
+

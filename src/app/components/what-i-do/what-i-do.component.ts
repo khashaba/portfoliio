@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-what-i-do',
   templateUrl: './what-i-do.component.html',
-  styleUrls: ['./what-i-do.component.css']
+  styleUrls: ['./what-i-do.component.scss']
 })
 export class WhatIDoComponent implements OnInit {
 

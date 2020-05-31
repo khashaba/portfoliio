@@ -1,6 +1,9 @@
+$welcome-screen-font: 115px;
+
+
 *{
     font-family: 'OCR A';
-    font-size: 115px;
+    font-size: $welcome-screen-font;
     color: #ffffff;
 }
 .welcome-screen{
@@ -36,4 +39,11 @@
 
     margin: auto;
     text-shadow: 8px 2px 14px #000000;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
 }

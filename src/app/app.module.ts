@@ -8,6 +8,8 @@ import { BriefIntroComponent } from './components/brief-intro/brief-intro.compon
 import { WhatIDoComponent } from './components/what-i-do/what-i-do.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SquareCardComponent } from './components/square-card/square-card.component';
+import { MissionComponent } from './components/mission/mission.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SquareCardComponent } from './components/square-card/square-card.compon
     BriefIntroComponent,
     WhatIDoComponent,
     SkillsComponent,
-    SquareCardComponent
+    SquareCardComponent,
+    MissionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

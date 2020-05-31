@@ -1,5 +1,5 @@
-<div class="skills">
+<div class="skills" [ngClass]="{ 'odd-skills': true }">
     <h1 class="moving-up">Skills</h1>
-    <app-square-card class="skill" *ngFor="let skill of skills" [skill]='skill'></app-square-card>
+    <app-square-card class="skill"  *ngFor="let skill of skills" [skill]='skill'></app-square-card>
 
 </div>

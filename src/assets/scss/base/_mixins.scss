@@ -1,0 +1,155 @@
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+body,
+html {
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/*common styling for border start*/
+.border {
+  &-top {
+    border-top: 1px solid $primary-border-color;
+
+    &-none {
+      border-top: none;
+    }
+  }
+
+  &-right {
+    border-right: 1px solid $primary-border-color;
+
+    &-none {
+      border-right: none;
+    }
+  }
+
+  &-bottom {
+    border-bottom: 1px solid $primary-border-color;
+
+    &-none {
+      border-bottom: none;
+    }
+  }
+
+  &-left {
+    border-left: 1px solid $primary-border-color;
+
+    &-none {
+      border-left: none;
+    }
+  }
+
+  &-all {
+    border: 1px solid $primary-border-color;
+
+    &-none {
+      border: none !important;
+    }
+  }
+
+  &-x {
+    border-left: 1px solid $primary-border-color;
+    border-right: 1px solid $primary-border-color;
+
+    &-none {
+      border-left: none;
+      border-right: none;
+    }
+  }
+
+  &-y {
+    border-top: 1px solid $primary-border-color;
+    border-bottom: 1px solid $primary-border-color;
+
+    &-none {
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+}
+
+/*common styling for border end*/
+
+//can give height of full screen to the element
+.fill-height {
+  height: 100vh;
+  //  margin-top: -100px;  //to be inserted once the header is introduced
+}
+
+.fill-width {
+  width: 100%;
+}
+
+.underline {
+  border: solid 2px $primary-color;
+  width: 60px;
+  border-radius: 3px;
+}
+
+.full-width-ht {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.rtl {
+  * {
+    font-family: "Cairo", sans-serif;
+  }
+
+  .fl {
+    float: right;
+  }
+
+  .fr {
+    float: left;
+  }
+}
+
+.dir-initial {
+  direction: initial;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.separator {
+  width: 100%;
+  border-color: $secondary-grey2;
+  border-radius: 0.5px;
+  border-style: solid;
+  border-top: 0;
+
+  &.vertical {
+    width: 1px;
+    height: 75px;
+    margin: 0 5px;
+    align-self: center;
+    border-right: 0;
+  }
+}
+
+//To be changed later
+.margin-bottom-5 {
+  margin-bottom: 50px;
+}
+
+[class^="col-md-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

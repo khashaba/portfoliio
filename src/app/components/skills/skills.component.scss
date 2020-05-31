@@ -24,3 +24,17 @@ h1{
     color: #FAFAFA;
     margin-top: -363px;
 }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 110px;
+        margin-top: -70px;
+    }
+    .skills{
+        height: 160vh;
+    }
+    
+    .odd-skills :last-child {
+        display: none;
+     }
+}
