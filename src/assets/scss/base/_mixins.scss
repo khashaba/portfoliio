@@ -10,70 +10,6 @@ html {
   padding: 0;
 }
 
-/*common styling for border start*/
-.border {
-  &-top {
-    border-top: 1px solid $primary-border-color;
-
-    &-none {
-      border-top: none;
-    }
-  }
-
-  &-right {
-    border-right: 1px solid $primary-border-color;
-
-    &-none {
-      border-right: none;
-    }
-  }
-
-  &-bottom {
-    border-bottom: 1px solid $primary-border-color;
-
-    &-none {
-      border-bottom: none;
-    }
-  }
-
-  &-left {
-    border-left: 1px solid $primary-border-color;
-
-    &-none {
-      border-left: none;
-    }
-  }
-
-  &-all {
-    border: 1px solid $primary-border-color;
-
-    &-none {
-      border: none !important;
-    }
-  }
-
-  &-x {
-    border-left: 1px solid $primary-border-color;
-    border-right: 1px solid $primary-border-color;
-
-    &-none {
-      border-left: none;
-      border-right: none;
-    }
-  }
-
-  &-y {
-    border-top: 1px solid $primary-border-color;
-    border-bottom: 1px solid $primary-border-color;
-
-    &-none {
-      border-top: none;
-      border-bottom: none;
-    }
-  }
-}
-
-/*common styling for border end*/
 
 //can give height of full screen to the element
 .fill-height {
@@ -130,7 +66,7 @@ label {
 
 .separator {
   width: 100%;
-  border-color: $secondary-grey2;
+  border-color: $secondary-grey;
   border-radius: 0.5px;
   border-style: solid;
   border-top: 0;

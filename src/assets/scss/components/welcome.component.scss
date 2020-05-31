@@ -1,10 +1,9 @@
-$welcome-screen-font: 115px;
 
 
-*{
+.welcome-message{
     font-family: 'OCR A';
-    font-size: $welcome-screen-font;
-    color: #ffffff;
+    font-size: $font-xxxxxl;
+    color: $primary-white;
 }
 .welcome-screen{
     height: 100vh;
@@ -18,7 +17,7 @@ $welcome-screen-font: 115px;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     z-index: -2;
 }
 .welcome-screen::after {
@@ -29,8 +28,9 @@ $welcome-screen-font: 115px;
     height: 100vh;
     top: 0;
     left: 0;
-   z-index: -1;
+    z-index: -1;
     background-color: rgba(0, 0, 0, 0.5);
+
 
   
 }
@@ -42,8 +42,8 @@ $welcome-screen-font: 115px;
 }
 
 @media (max-width: 600px) {
-    h1{
-        font-size: 40px;
+    .welcome-message{
+        font-size: $font-xxl;
         text-align: center;
     }
 }

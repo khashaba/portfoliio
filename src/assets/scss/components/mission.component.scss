@@ -1,13 +1,13 @@
 .mission{
     height: 80vh;
     width: 100vw;
-    background-color: #fff;
+    background-color: $primary-white;
     display: flex;
     align-items:flex-end;
 
     
 }
-.content{
+.mission-content{
 max-width: 56%;
 bottom: 2%;
 margin: 0 auto;
@@ -16,9 +16,6 @@ display: flex;
 align-items:center;
 flex-direction: column;
 padding-bottom: 40px;
-
-
-
 }
 .mission-image{
     float: right;
@@ -27,10 +24,9 @@ padding-bottom: 40px;
 
 }
 
-p{
-    font-family: 'Times New Roman', Times, serif;
-    color: #707070;
-    font-size: 27px;
+.mission-text{
+    color: $secondary-grey;
+    font-size: $font-xl;
     margin-bottom: 40px;
 
 }
@@ -53,8 +49,8 @@ p{
         display: none;
     }
 
-    p{
-        font-size: 16px;
+    .mission-text{
+        font-size:$base-font;
     }
     .companies{
         width: 90vw;

@@ -1,0 +1,51 @@
+footer {
+  background-color: #151505;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.content {
+  display: flex;
+  width: 77vw;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+}
+.big-text {
+  font-size: $font-xxxxxl;
+  color: #fafafa;
+  margin-bottom: 10%;
+  margin: auto;
+}
+.contacts {
+  margin-bottom: 80px;
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  h3 {
+    font-size: $font-xxl;
+    color: #707070;
+  }
+  span:hover {
+    color: #fafafa;
+  }
+  .linkedin:hover {
+    color: #0077b5;
+  }
+}
+
+@media (max-width: 600px) {
+  .big-text {
+    font-size: $font-xxxl;
+  }
+  .contacts {
+    h3 {
+      font-size: $font-lg;
+    }
+  }
+}

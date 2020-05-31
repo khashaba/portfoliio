@@ -21,3 +21,11 @@ Reset CSS and Bootstrap or Vendor SASS
 /*
     Custom Styles for Components as per Design System
 */
+
+@import "./components/brief-intro.component.scss";
+@import "./components/footer.component.scss";
+@import "./components/mission.component.scss";
+@import "./components/skills.component.scss";
+@import "./components/square-card.component.scss";
+@import "./components/what-i-do.component.scss";
+@import "./components/welcome.component.scss";

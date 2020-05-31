@@ -1,36 +1,13 @@
 // Brand Colors
 
-$primary-color: #bf3547;
-$accent-color: #f7ba51;
-$primary-raisin-black: #262626;
-$secondary-grey: #616161;
-$secondary-grey2: #dfdfdf;
-$radio-border: #9c9c9c;
-$radio-unselected: #efefef;
+$primary-color: #151505;
+$accent-color: #FFCD00;
 $primary-white: #ffffff;
-$button-disabled-text: #fdf0f0;
-$primary-border-color: #dddfdf;
-$title-border: #dddfdf;
-$scroll-color: #fcb1b7;
-$avatar-color: #f5ede3;
-$card-shadows: rgba(0, 0, 0, 0.06);
-$pale-grey:#eaf7f3;
-$light-teal: #ade2d2;
+$secondary-grey: #707070;
+$secondary-grey2: #bbb;
 $greenish-teal: #31b78f;
-$rosy-pink: #f26b73;
-$pale-rose: #fbc8cd;
-$btngrp-unselected: #f5f5f9;
-$light-pink: #fe717d;
-$discovery-grey-bg: #f5f5f9;
-$light-pink: #ffe9e8;
-$pale-blue:#bcc7f7;
-$light-blue:#eaedf8;
-$blue:#265dc1;
-$icon-hover-bg: #eef8fd;
-$icon-hover-border: #b4e9f1;
-$faded-pink: #f9edee;
-$pale-rose: #fbc8cd;
-$overlay-color: rgba(38, 38, 38, 0.3);
+
+
 
 
 //Media query variables
@@ -55,8 +32,12 @@ $font-sm: 14px;
 $base-font: 16px;
 $font-md: 18px;
 $font-lg: 20px;
-$font-xl: 24px;
-$font-xxl: 30px;
+$font-xl: 27px;
+$font-xxl: 40px;
+$font-xxxl: 60px;
+$font-xxxxxl: 115px;
+$font-super: 300px;
+
 
 $discovery:("h1": 18px, "h2":30px, "h3":56px, "ps":16px, "pl":20px, "link":14px, "link-s":12px);
 $discovery-mob:("h1": 18px, "h2":24px, "h3":56px, "ps":16px, "pl":20px, "link":14px, "link-s":12px);

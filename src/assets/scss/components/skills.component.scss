@@ -1,5 +1,5 @@
 .skills{
-    background-color:#FFCD00 ;
+    background-color:$accent-color ;
     height: 100vh;
     width: 100vw;
     padding: 10vh 15vw;
@@ -8,6 +8,14 @@
     flex-wrap: wrap;
     padding-bottom: 1%;
 
+    h1{
+        position: absolute;
+        font-family: "Roboto";
+        font-size:$font-super;
+        font-weight: 900;
+        color: $primary-white;
+        margin-top: -363px;
+    }
 }
 
 .skill{
@@ -16,22 +24,14 @@
     padding-bottom: 1%;
 }
 
-h1{
-    position: absolute;
-    font-family: "Roboto";
-    font-size: 300px;
-    font-weight: 900;
-    color: #FAFAFA;
-    margin-top: -363px;
-}
 
 @media (max-width: 600px) {
-    h1{
-        font-size: 110px;
-        margin-top: -70px;
-    }
     .skills{
         height: 160vh;
+        h1{
+            font-size: $font-xxxxxl;
+            margin-top: -70px;
+        }
     }
     
     .odd-skills :last-child {

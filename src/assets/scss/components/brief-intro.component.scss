@@ -1,12 +1,12 @@
 .brief-section {
-  background-color: #fff;
+  background-color: $primary-white;
   height: 511px;
   position: relative;
   width: 100vw;
 }
 .brief-text {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 36px;
+  color: $secondary-grey;
+  font-size: $font-xxl;
   text-align: right;
   max-width: 60vw;
   height: 222px;
@@ -22,16 +22,17 @@
   position: absolute;
   top: 50%;
   left: 8%;
+  img{
+    width: 9px;
+    height: 9px;
+  }
 }
-.copyrights > img {
-  width: 9px;
-  height: 9px;
-}
-h4 {
+
+.flipped-side-note {
   margin-left: 9px;
   display: inline;
   text-transform: uppercase;
-  color: #bbb;
+  color: $secondary-grey2;
   font-weight: 300;
   font-size: 12px;
   letter-spacing: 2px;

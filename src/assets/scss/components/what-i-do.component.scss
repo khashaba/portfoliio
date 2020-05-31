@@ -1,0 +1,21 @@
+.what-i-do-section{
+    width: 100vw;
+    height: 85vh;
+    background-color: #151505;
+    position: relative;
+    p{
+        font-size: 30px;
+        max-width: 220px;
+        font-family: "OCR A";
+        color: #FAFAFA;
+        position: absolute;
+        bottom: 5%;
+        left:5%;
+    }
+    
+    img{
+        height: 85vh;
+        float: right;
+        object-fit:contain;
+    }
+}
