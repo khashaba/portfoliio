@@ -19,6 +19,11 @@ footer {
   color: #fafafa;
   margin-bottom: 10%;
   margin: auto;
+  @include mobile{
+    font-size: $font-xxxl;
+
+  }
+
 }
 .contacts {
   margin-bottom: 80px;
@@ -30,22 +35,17 @@ footer {
   h3 {
     font-size: $font-xxl;
     color: #707070;
+    @include mobile{
+      font-size: $font-lg;
+
+  
+    }
+  
   }
   span:hover {
     color: #fafafa;
   }
   .linkedin:hover {
     color: #0077b5;
-  }
-}
-
-@media (max-width: 600px) {
-  .big-text {
-    font-size: $font-xxxl;
-  }
-  .contacts {
-    h3 {
-      font-size: $font-lg;
-    }
   }
 }

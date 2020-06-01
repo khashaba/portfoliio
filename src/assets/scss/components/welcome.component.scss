@@ -4,6 +4,10 @@
     font-family: 'OCR A';
     font-size: $font-xxxxxl;
     color: $primary-white;
+    @include mobile{
+        font-size: $font-xxl;
+        text-align: center;
+    }
 }
 .welcome-screen{
     height: 100vh;
@@ -40,11 +44,4 @@
 
     margin: auto;
     text-shadow: 8px 2px 14px #000000;
-}
-
-@media (max-width: 600px) {
-    .welcome-message{
-        font-size: $font-xxl;
-        text-align: center;
-    }
 }
