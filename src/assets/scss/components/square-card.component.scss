@@ -1,6 +1,7 @@
 .square {
   background-color: $primary-white;
   display: flex;
+  border-radius: 21px;
   @include mobile {
     margin: 5px;
   }
