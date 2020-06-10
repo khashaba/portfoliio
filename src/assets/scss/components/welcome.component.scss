@@ -1,47 +1,40 @@
-
-
-.welcome-message{
-    font-family: 'OCR A';
-    font-size: $font-xxxxxl;
-    color: $primary-white;
-    @include mobile{
-        font-size: $font-xxl;
-        text-align: center;
-    }
+.welcome-message {
+  span{
+  font-family: "OCR A";
+  font-size: $font-xxxxxl;
+  color: $primary-white;
+  @include mobile {
+    font-size: $font-xxl;
+    text-align: center;
+  }
 }
-.welcome-screen{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-
+}
+.welcome-screen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
-
-.welcome-img{
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -2;
+.welcome-vid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -2;
 }
 .dark-overlay {
-    content: "";
-    display: block;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    backdrop-filter: blur(2.5px);
-    background-color: rgba(0, 0, 0, 0.5);
-
-
-  
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  backdrop-filter: blur(2.5px);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.center-h-v{
-  
-
-    margin: auto;
-    text-shadow: 8px 2px 14px #000000;
+.center-h-v {
+  margin: auto;
+  text-shadow: 8px 2px 14px #000000;
 }
