@@ -1,18 +1,19 @@
-.welcome-message {
-  span{
-  font-family: "OCR A";
-  font-size: $font-xxxxxl;
-  color: $primary-white;
-  @include mobile {
-    font-size: $font-xxl;
-    text-align: center;
-  }
-}
-}
 .welcome-screen {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   display: flex;
+}
+.welcome-message {
+  span {
+    font-family: "OCR A";
+    display: inline-block;
+    font-size: $font-xxxxxl;
+    color: $primary-white;
+    @include mobile {
+      font-size: $font-xxl;
+      text-align: center;
+    }
+  }
 }
 
 .welcome-vid {
@@ -35,6 +36,25 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .center-h-v {
+  height: 100vh;
   margin: auto;
   text-shadow: 8px 2px 14px #000000;
+}
+
+.hideHeader {
+  display: none !important;
+}
+
+.secondHeader {
+  position: absolute;
+  left: 25%;
+
+}
+.construct{
+  bottom:0;
+
+}
+.things{
+  bottom:-30%;
+
 }

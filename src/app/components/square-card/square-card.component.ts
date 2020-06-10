@@ -9,7 +9,7 @@ export class SquareCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.skill)
+    console.log(this.skill);
   }
 
 }

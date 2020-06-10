@@ -1,15 +1,22 @@
-<div class="welcome-screen" >
-    <video class="welcome-vid" autoplay loop defaultMuted>
-        <source src="assets/construction.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    <div class="center-h-v" >
-        <h1 class="welcome-message" [style.background-color]="'red'">
-            <span [style.transform]="'translateX(' + 22 + 'px)'">Hey, </span>
-            <span>I'm </span>
-            <span>Ahmed</span>
-        </h1>
-    </div>
-    <div class="dark-overlay">
-    </div>
+<div class="welcome-screen">
+  <video class="welcome-vid" autoplay loop defaultMuted>
+    <source src="assets/construction.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="center-h-v">
+    <h1 class="welcome-message">
+      <span [style.transform]="'translateY(' + translateHeyValue + 'px)'"
+        >Hey,
+      </span>
+      <span >I</span>
+      <span [style.transform]="'translateX(' + translateNameValue + 'px)'"
+        >'m Ahmed</span
+      ><span [ngClass]="hideSecondHeader" class="construct"
+        >construct </span
+      ><span [ngClass]="hideSecondHeader"  class="things"
+        >things.</span
+      >
+    </h1>
+  </div>
+  <div class="dark-overlay"></div>
 </div>
