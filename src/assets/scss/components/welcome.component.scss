@@ -1,10 +1,11 @@
 .welcome-screen {
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
 }
 .welcome-message {
   span {
+    margin: auto;
     font-family: "OCR A";
     display: inline-block;
     font-size: $font-xxxxxl;
@@ -36,7 +37,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .center-h-v {
-  height: 100vh;
   margin: auto;
   text-shadow: 8px 2px 14px #000000;
 }
